@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   font-family:  "Open Sans", OpenSans, sans-serif;
+   font-weight: 100;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 40px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .top-left {
+  float: left;
+  }
+
+  .header {
+      color:white;
+      background-color: rgb(32, 101, 136);
+      height: 600px;
+      background-image: url(file:///home/mateo/Documents/ironhack/code/Mateo/lab-html-module-exercise-master/starter-code/images/city-scape.svg);
+      width: 100%;
+  }
+.npm-logo{
+    width: 10%;
+    float: left;
+    margin:10px;
+}
+.search-bar{
+    background-color: rgb(31, 82, 111);
+    margin: 10px 1px 10px 10px;
+    width: 65%;
+    display: block;
+    float: left;
+    height: 40px;
+    border:none;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+.button-lupa{
+    height: 40px;
+    width: 40px;
+    border:none;
+    margin-top:10px;
+    background-color: rgb(31, 82, 111);
+    display: block;
+    float: left;
+}
+.login{
+    width:12%;
+    float: right;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.login a {
+    text-decoration: none;
+    color: rgb(135, 145, 156) ;
+        
+}
+.bear-logo{
+    width: 3%;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+h1, h2 {
+    margin-bottom: 25px;
+}
+
+  .building {
+        width:40%;
+        float:left;
+        position: relative;
+        top: 20%;
+        font-size: 1.3em;
+        margin : 0 auto;
+  }
+  .collaboration {
+      background-color: rgb(39, 53, 71);
+      margin :auto;
+      height: 700px;
+  }
+  .collaboration-logo {
+      width: 40%;
+      float: left;
+      position: relative;
+      left:5%;
+      margin-top: 10%;
+
+  }
+  .collaboration-text {
+      color: white;
+      float: right;
+      width: 40%;
+      padding: 5%;
+      font-size: 1.3em;
+      position: relative;
+      top: 10%;
+  }
+
+  .collaboration-text ul {
+      line-height: 50px;
+  }
+
+  .link-btn-orgs {
+    background-color:rgb(203, 56, 55);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    margin: 30px auto 0 auto;
+    padding: 14px 20px 14px 20px;
+    border: 2px black solid 0.2;
+    border-radius: 30px;
+    float: left;
+  }
+  .learn-more {
+      float: left;
+      margin-right: 20%;
+      margin-top: 15px
+  }
+
+  .learn-more-link {
+      text-decoration: none;
+      color: white;
+
+  }
+  .clearfix {
+    clear: both;
+  }
+.bear {
+    height: 600px;
+    background-image: url(file:///home/mateo/Documents/ironhack/code/Mateo/lab-html-module-exercise-master/starter-code/images/forklift.svg);
+    background-size: cover;
+    background-position: center;
+}
+.bear-text{
+    position: relative;
+    width: 30%;
+    top: 30%;
+    left: 5%;
+    color: white;
+    font-size: 1.3em;
+}
+.lastsection {
+    height: 600px;
+    background-color: white;
+    color: rgb(135, 145, 156);
+    text-align: center;
+    font-size: 1.3em;
+}
+.lastsection h2, .lastsection h3 {
+    color: rgb(83, 88, 98)
+}
+.lastsection-text{
+    margin-top: 8%;
+}
+.col { 
+    float: left; 
+    position: relative;
+    left: 15%;
+    margin-top: 5%;
+}
+.col-3 {
+  width: 20%;
+}
+.col-middle {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.link-btn-build {
+    background-color: rgb(240, 146, 51);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    margin: 30px auto 0 auto;
+    padding: 14px 20px 14px 20px;
+    border: 2px black solid 0.2;
+    border-radius: 30px;
+    float: left;
+  }
+  .link-btn-install {
+    background-color: rgb(49, 68, 88);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    margin: 30px auto 0 auto;
+    padding: 14px 20px 14px 20px;
+    border: 2px black solid 0.2;
+    border-radius: 30px;
+    float: left;
+  }
+.lastsection2 p a {
+    color: rgb(203, 56, 55);
+    text-decoration: none;
+ 
+}
