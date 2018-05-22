@@ -136,7 +136,7 @@ h1, h2 {
   }
   .learn-more {
       float: left;
-      margin-right: 20%;
+      clear: both;
       margin-top: 15px
   }
 
