@@ -36,7 +36,7 @@ nav {
       color:white;
       background-color: rgb(32, 101, 136);
       height: 600px;
-      background-image: url(file:///home/mateo/Documents/ironhack/code/Mateo/lab-html-module-exercise-master/starter-code/images/city-scape.svg);
+      background-image: url(images/city-scape.svg);
       width: 100%;
   }
 .npm-logo{
@@ -150,7 +150,7 @@ h1, h2 {
   }
 .bear {
     height: 600px;
-    background-image: url(file:///home/mateo/Documents/ironhack/code/Mateo/lab-html-module-exercise-master/starter-code/images/forklift.svg);
+    background-image: url(images/forklift.svg);
     background-size: cover;
     background-position: center;
 }
